@@ -1,14 +1,11 @@
 {
-  "name": "@lee-cli/utils",
+  "name": "@lee/utils",
   "version": "0.0.5",
   "description": "@lee-cli utils ",
   "author": "lqq <jesus_lqq@163.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
-  "bin": {
-    "utils": "bin/index.js"
-  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"

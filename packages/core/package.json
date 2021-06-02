@@ -1,5 +1,5 @@
 {
-  "name": "@lee-cli/core",
+  "name": "@lee/core",
   "version": "0.0.5",
   "description": "@lee-cli core",
   "author": "lqq <jesus_lqq@163.com>",
@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/core.js",
   "bin": {
-    "core": "bin/index"
+    "core": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
@@ -23,5 +23,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "f0663b4d024bbdf0100496de36cb5ceeb8571ea4"
+  "gitHead": "f0663b4d024bbdf0100496de36cb5ceeb8571ea4",
+  "dependencies": {
+    "@lee/utils": "file:../utils"
+  }
 }
