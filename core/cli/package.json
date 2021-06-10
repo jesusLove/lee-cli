@@ -26,7 +26,11 @@
   "gitHead": "f0663b4d024bbdf0100496de36cb5ceeb8571ea4",
   "dependencies": {
     "@lee/log": "file:../../utils/log",
+    "colors": "^1.4.0",
     "import-local": "^3.0.2",
-    "npmlog": "^4.1.2"
+    "npmlog": "^4.1.2",
+    "package": "file:../../../../../../.nvm/versions/node/v12.13.1/lib/node_modules/package",
+    "root-check": "1.0.0",
+    "semver": "^7.3.5"
   }
 }
