@@ -1,14 +1,11 @@
 {
-  "name": "@lee/core",
+  "name": "@lee/utils",
   "version": "0.0.5",
-  "description": "@lee-cli core",
+  "description": "@lee-cli utils ",
   "author": "lqq <jesus_lqq@163.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
-  "bin": {
-    "core": "bin/index.js"
-  },
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -25,6 +22,5 @@
   },
   "gitHead": "f0663b4d024bbdf0100496de36cb5ceeb8571ea4",
   "dependencies": {
-    "@lee/utils": "file:../utils"
   }
 }
