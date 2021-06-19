@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "package": "file:../../../../.nvm/versions/node/v12.13.1/lib/node_modules/package"
   }
 }

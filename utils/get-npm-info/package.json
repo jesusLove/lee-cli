@@ -1,0 +1,34 @@
+{
+  "name": "@lee/get-npm-info",
+  "version": "0.0.5",
+  "description": "> TODO: description",
+  "author": "lqq <jesus_lqq@163.com>",
+  "homepage": "https://github.com/jesusLove/lee-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusLove/lee-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jesusLove/lee-cli/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "semver": "^7.3.5",
+    "url-join": "^4.0.1"
+  }
+}

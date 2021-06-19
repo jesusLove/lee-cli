@@ -25,12 +25,17 @@
   },
   "gitHead": "f0663b4d024bbdf0100496de36cb5ceeb8571ea4",
   "dependencies": {
+    "@lee/get-npm-info": "file:../../utils/get-npm-info",
     "@lee/log": "file:../../utils/log",
     "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
     "import-local": "^3.0.2",
+    "minimist": "^1.2.5",
     "npmlog": "^4.1.2",
     "package": "file:../../../../../../.nvm/versions/node/v12.13.1/lib/node_modules/package",
+    "path-exists": "^4.0.0",
     "root-check": "1.0.0",
-    "semver": "^7.3.5"
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
   }
 }
